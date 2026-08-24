@@ -1,1 +1,0 @@
-import{_ as t,o as e,c as r}from"./chunks/framework.DxxpPv3B.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guia/contribuir.md","filePath":"guia/contribuir.md"}'),a={name:"guia/contribuir.md"};function i(o,c,n,s,p,u){return e(),r("div")}const m=t(a,[["render",i]]);export{d as __pageData,m as default};
