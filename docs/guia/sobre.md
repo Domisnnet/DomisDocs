@@ -1,15 +1,14 @@
-# 🚀 DomisDocs — Engenharia Front-end 🚀
+# 🚀 Deploy Angular 20 no Firebase Hosting — Engenharia Front-end 🚀
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/Domisnnet/Document-Firebase-Hosting?style=for-the-badge)
-![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/Document-Firebase-Hosting?style=for-the-badge)
-
+![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs?style=for-the-badge)
+![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Documentação%20Online-brightgreen?style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=flat-square&logo=angular&logoColor=white)
 ![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/Document-Firebase-Hosting/blob/main/LICENSE)
 
-> Guia técnico completo, passo a passo, para conectar uma aplicação **Angular 20** a um projeto existente no **Firebase** e publicá-la utilizando o **Firebase Hosting**. Documentação profissional organizada como referência técnica permanente e que suporta todos os tipos de Linguagem e/ou FrameWork.
+> Guia técnico completo, passo a passo, para conectar uma aplicação **Angular 20** a um projeto existente no **Firebase** e publicá-la utilizando o **Firebase Hosting**. Documentação profissional organizada como referência técnica permanente.
 
 ---
 
