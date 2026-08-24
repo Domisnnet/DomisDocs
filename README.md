@@ -1,21 +1,14 @@
 # 🚀 DomisDocs — Guia: Deploy de Angular 20 no Firebase Hosting
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs?style=for-the-badge)
-
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs?style=for-the-badge)
-
 ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs?style=for-the-badge)
 
 ![Status](https://img.shields.io/badge/Status-Documentação-4CAF50?style=flat-square)
-
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=flat-square&logo=angular&logoColor=white)
-
 ![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
 ![Node.js](https://img.shields.io/badge/Node.js-20.19%2B-339933?style=flat-square&logo=node.js&logoColor=white)
-
 ![Firebase CLI](https://img.shields.io/badge/Firebase_CLI-15%2B-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/LICENSE)
 
 > **Plataforma de Documentação Técnica DomisDev**
@@ -347,9 +340,8 @@ Não! Para hospedar uma SPA Angular basta o Firebase Hosting. Os demais serviço
 Acesse o repositório oficial no GitHub:
 
 <a href="https://github.com/Domisnnet">
-  <img src="https://avatars.githubusercontent.com/u/placeholder" width="90" style="border-radius: 50%" alt="DomisDev GitHub">
+  <img src="docs/public/images/DomisDev.png" width="90" style="border-radius: 50%" alt="DomisDev GitHub">
 </a>
-
 &nbsp;
 <p align="center">
   <a href="#-domisdocs--guia-de-deploy-de-angular-20-no-firebase-hosting">
