@@ -1,4 +1,4 @@
-# 🚀 DomisDocs — Guia: Deploy de Angular 20 no Firebase Hosting
+<h1 id="-domisdocs"> 🚀 DomisDocs — Guia: Deploy de Angular 20 no Firebase Hosting</h1>
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/Domisnnet/DomisDocs?style=for-the-badge)
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs?style=for-the-badge)
@@ -23,12 +23,12 @@
 
 ## 📚 Tabela de Conteúdo
 
-| 🚀 Guia | 🛠️ Técnico | 🤝 Referência |
+| 💻 O Projeto | 🛠️ Técnico | 🤝 Comunidade |
 | :---: | :---: | :---: |
-| [1. Objetivo](#1--objetivo) | [5. Build e Configuração](#5--build-e-configuração) | [9. Troubleshooting](#9--troubleshooting) |
-| [2. Como Funciona](#2--como-funciona) | [6. Deploy em Produção](#6--deploy-em-produção) | [10. Boas Práticas](#10--boas-práticas) |
-| [3. Tecnologias e Requisitos](#3--tecnologias-e-requisitos) | [7. Estrutura do Projeto](#7--estrutura-do-projeto) | [11. Perguntas Frequentes](#11--perguntas-frequentes) |
-| [4. Preparação e Login](#4--preparação-e-login) | [8. Validação e Testes](#8--validação-e-testes) | [12. Créditos e Referências](#12--créditos-e-referências) |
+| [![1. Objetivo](https://img.shields.io/badge/1%20-%20Sobre-4CAF50)](#1--objetivo) | [![5. Build](https://img.shields.io/badge/5%20-%20Destaques-607D8B)](#5--build-e-configuracao) | [![9. Troubleshooting](https://img.shields.io/badge/9%20-%20Código-795548)](#9--troubleshooting) |
+| [![2. Como Funciona](https://img.shields.io/badge/2%20-%20Techs-2196F3)](#2--como-funciona) | [![6. Deploy](https://img.shields.io/badge/6%20-%20Deploy-009688)](#6--deploy-em-producao) | [![10. Boas Práticas](https://img.shields.io/badge/10%20-%20Créditos-607D8B)](#10--boas-praticas) |
+| [![3. Techs](https://img.shields.io/badge/3%20-%20Acessar-FF9800)](#3--tecnologias-e-requisitos) | [![7. Estrutura](https://img.shields.io/badge/7%20-%20Contribuir-3F51B5)](#7--estrutura-do-projeto) | [![11. FAQ](https://img.shields.io/badge/11%20-%20Licença-E91E63)](#11--perguntas-frequentes) |
+| [![4. Preparação](https://img.shields.io/badge/4%20-%20Funções-9C27B0)](#4--preparacao-e-login) | [![8. Validação](https://img.shields.io/badge/8%20-%20FAQ-FFC107)](#8--validacao-e-testes) | [![12. Perfil](https://img.shields.io/badge/12%20-%20Perfil-212121)](#12--creditos-e-referencias) |
 
 ---
 
@@ -345,7 +345,7 @@ Acesse o Repositório Oficial no GitHub:
 
 &nbsp;
 <p align="center">
-  <a href="#-domisdocs--guia-de-deploy-de-angular-20-no-firebase-hosting">
+  <a href="#-domisdocs">
     <img src="https://img.shields.io/badge/⬆️%20VOLTAR%20AO%20TOPO-26FF00?style=flat&labelColor=111827&color=0A0F1C" alt="Voltar ao topo">
   </a>
 </p>
