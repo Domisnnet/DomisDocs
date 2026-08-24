@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.DxxpPv3B.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guia/acessar.md","filePath":"guia/acessar.md"}'),s={name:"guia/acessar.md"};function r(c,o,n,i,p,_){return e(),t("div")}const f=a(s,[["render",r]]);export{m as __pageData,f as default};

@@ -1,0 +1,1 @@
+import{_ as e,o as t,c as a}from"./chunks/framework.DxxpPv3B.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guia/creditos.md","filePath":"guia/creditos.md"}'),r={name:"guia/creditos.md"};function o(s,c,i,n,d,p){return t(),a("div")}const f=e(r,[["render",o]]);export{m as __pageData,f as default};

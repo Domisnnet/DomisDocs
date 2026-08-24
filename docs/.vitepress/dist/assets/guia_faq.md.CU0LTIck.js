@@ -1,0 +1,1 @@
+import{_ as a,o as e,c as t}from"./chunks/framework.DxxpPv3B.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guia/faq.md","filePath":"guia/faq.md"}'),r={name:"guia/faq.md"};function o(s,c,n,i,f,p){return e(),t("div")}const m=a(r,[["render",o]]);export{d as __pageData,m as default};
