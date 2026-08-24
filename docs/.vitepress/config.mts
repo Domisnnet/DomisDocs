@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DomisDocs",
   description: "Plataforma de Documentação Técnica — DomisDev | Guia: Angular 20 + Firebase Hosting",
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]
+  ],
   lang: 'pt-BR',
   base: '/',
   themeConfig: {
