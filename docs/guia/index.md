@@ -7,6 +7,7 @@ title: Guia — Deploy Angular 20 no Firebase Hosting
 > **DomisDocs** → Guia técnico completo — Angular 20 + Firebase Hosting
 >
 > **Projeto de referência:** Shadow-Flip-Angular
+>
 > **Última atualização:** agosto de 2026
 
 ---

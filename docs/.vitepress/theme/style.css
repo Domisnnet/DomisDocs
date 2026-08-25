@@ -73,6 +73,37 @@
   width: 100% !important;
 }
 
+.vp-doc .header-anchor {
+  display: none !important;
+}
+
+/* LINKS DO CONTEÚDO */
+.vp-doc a {
+  color: #a5b4fc !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+/* HOVER */
+.vp-doc a:hover {
+  color: #8f74fd !important;
+  text-decoration: none !important;
+}
+
+/* BARRA LATERAL */
+.VPSidebar,
+.VPSidebar a,
+.VPSidebarContainer,
+.VPSidebarContainer a,
+aside,
+aside a {
+  color: var(--vp-c-text-1) !important;
+  text-decoration: none !important;
+  box-shadow: none !important;
+  border-bottom: none !important;
+}
+
 article img,
 .vp-doc img,
 p img {
