@@ -59,7 +59,7 @@ O processo completo inclui: instalação do Firebase CLI, autenticação, associ
 Após o deploy bem-sucedido, sua aplicação estará disponível na "Plataforma" clicando no botão abaixo:
 
 <div align="left">
-  <a href="https://portfolio-23948217-d156e.firebaseapp.com/" target="_blank">
+  <a href="https://domisdocs-602fc.web.app/" target="_blank">
     <img alt="Botão Acessar" src="docs/public/images/botão.webp" height="70" width="70" />
   </a>
 </div>
