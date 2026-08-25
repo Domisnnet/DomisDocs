@@ -13,7 +13,7 @@ export default defineConfig({
     nav: [
       { text: 'Início', link: '/' },
       { text: '📖 Guia Completo', link: '/guia/' },
-      {
+        {
         text: '🔗 DomisDocs',
         items: [
           { text: 'Repositório', link: 'https://github.com/Domisnnet/DomisDocs' },
