@@ -6,7 +6,7 @@ title: Deploy de Angular 20 no Firebase Hosting
 ![GitHub stars](https://img.shields.io/github/stars/Domisnnet/DomisDocs?style=for-the-badge)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Domisnnet/DomisDocs?style=for-the-badge)
 
-# 🚀 1. Deploy de Angular 20 no Firebase Hosting 🚀
+# 🚀 1. Deploy de Angular 20 no Firebase Hosting🚀
 
 ![Status](https://img.shields.io/badge/Status-Documentação-4CAF50?style=flat-square)
 ![Angular](https://img.shields.io/badge/Angular-20-DD0031?style=flat-square&logo=angular&logoColor=white)
