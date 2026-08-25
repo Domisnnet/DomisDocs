@@ -12,10 +12,8 @@
 [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/license)
 ![DomisDocs](docs/public/images/domisdocs.png)
 
-> **Plataforma de Documentação Técnica — DomisDev**
->
+> **Plataforma de Documentação Técnica — DomisDocs:**
 > Guia completo e testado para conectar uma aplicação **Angular 20** a um projeto existente no **Firebase** e publicá-la utilizando o **Firebase Hosting**.
->
 > **Projeto de referência:** **Shadow-Flip-Angular**
 > **Nível:** Intermediário → Avançado
 > **Última atualização:** agosto de 2026
@@ -62,7 +60,7 @@ Após o deploy bem-sucedido, sua aplicação estará disponível na "Plataforma"
 
 <div align="left">
   <a href="https://portfolio-23948217-d156e.firebaseapp.com/" target="_blank">
-    <img alt="Botão Acessar" src="public/images/botão.webp" height="70" width="70" />
+    <img alt="Botão Acessar" src="docs/public/images/botão.webp" height="70" width="70" />
   </a>
 </div>
 
