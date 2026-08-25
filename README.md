@@ -9,7 +9,7 @@
 ![Firebase](https://img.shields.io/badge/Firebase-Hosting-FFCA28?style=flat-square&logo=firebase&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-20.19%2B-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Firebase CLI](https://img.shields.io/badge/Firebase_CLI-15%2B-FFCA28?style=flat-square&logo=firebase&logoColor=black)
-[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/license)
+[![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/LICENSE)
 ![DomisDocs](docs/public/images/domisdocs.png)
 
 > **Plataforma de Documentação Técnica — DomisDocs:**
@@ -198,7 +198,7 @@ Explore a documentação completa no repositório oficial:
 
 <h2 id="licenca">11. 📄 Licença</h2>
 
-Este projeto está sob a: &nbsp; [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/license) — livre uso mantendo os créditos.
+Este projeto está sob a: &nbsp; [![Licença MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/Domisnnet/DomisDocs/blob/main/LICENSE) &nbsp; — livre uso mantendo os créditos.
 
 ---
 
