@@ -3,10 +3,12 @@
  * https://github.com/vuejs/vitepress/blob/main/src/client/theme-default/styles/vars.css
  */
 
-/* ==========================================================================
-   CORES E VARIÁVEIS (mantidas originais)
-   ========================================================================== */
+/* ======================================
+   VARIÁVEIS DO TEMA — Largura e Cores
+   ====================================== */
 :root {
+  --vp-layout-max-width: 1440px !important;
+  --vp-doc-max-width: 1100px !important;
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -47,8 +49,12 @@
   --vp-home-hero-image-background-image: linear-gradient(-45deg, #bd34fe 50%, #47caff 50%);
   --vp-home-hero-image-filter: blur(44px);
 }
-@media (min-width: 640px) { :root { --vp-home-hero-image-filter: blur(56px); } }
-@media (min-width: 960px) { :root { --vp-home-hero-image-filter: blur(68px); } }
+@media (min-width: 640px) {
+  :root { --vp-home-hero-image-filter: blur(56px); }
+}
+@media (min-width: 960px) {
+  :root { --vp-home-hero-image-filter: blur(68px); }
+}
 
 :root {
   --vp-custom-block-tip-border: transparent;
@@ -59,48 +65,73 @@
 
 .DocSearch { --docsearch-primary-color: var(--vp-c-brand-1) !important; }
 
-div.content img,
-article img,
-main img {
+/* ======================================
+   ✅ BADGES — Espaçamento garantido
+   ====================================== */
+article img {
   display: inline-block !important;
   margin: 4px 8px !important;
-  padding: 0 !important;
-  border: none !important;
-  box-shadow: none !important;
+  vertical-align: middle !important;
 }
 
-div.VPDocNav {
-  margin-top: 3rem !important;
-  padding-top: 1.5rem !important;
-  border-top: 3px solid rgba(100, 108, 255, 0.25) !important;
+/* ======================================
+   ✅ LARGURA DO CONTEÚDO — Sem espaço sobrando
+   ====================================== */
+.VPDocContainer {
+  max-width: 1100px !important;
+  width: 100% !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
-div.VPDocNav > a,
-div.VPDocNav a.link {
-  border: 1px solid rgba(100, 108, 255, 0.4) !important;
-  border-radius: 10px !important;
-  background: linear-gradient(135deg, rgba(100, 108, 255, 0.15), rgba(100, 108, 255, 0.05)) !important;
-  padding: 1.2rem !important;
-  text-decoration: none !important;
+/* ======================================
+   🔥 BOTÃO DE NAVEGAÇÃO — FORÇA TOTAL
+   ====================================== */
+a[class^="VPDocNav_link"],
+div[class*="VPDocNav"] a {
+  all: unset !important;
+  display: block !important;
+  cursor: pointer !important;
+  width: 100% !important;
+  box-sizing: border-box !important;
+  margin-top: 0.5rem !important;
+  padding: 1.5rem 2rem !important;
+  border-radius: 14px !important;
+  border: 2px solid rgba(100, 108, 255, 0.4) !important;
+  background: linear-gradient(135deg, rgba(100, 108, 255, 0.2), rgba(189, 52, 254, 0.1)) !important;
   transition: all 0.3s ease !important;
-  opacity: 1 !important;
 }
 
-div.VPDocNav > a:hover {
-  border-color: rgba(100, 108, 255, 0.8) !important;
-  background: linear-gradient(135deg, rgba(100, 108, 255, 0.25), rgba(100, 108, 255, 0.1)) !important;
-  transform: translateY(-2px) !important;
-  box-shadow: 0 6px 16px rgba(100, 108, 255, 0.18) !important;
+a[class^="VPDocNav_link"]:hover,
+div[class*="VPDocNav"] a:hover {
+  border-color: rgba(189, 52, 254, 0.8) !important;
+  background: linear-gradient(135deg, rgba(100, 108, 255, 0.3), rgba(189, 52, 254, 0.18)) !important;
+  transform: translateY(-3px) !important;
+  box-shadow: 0 10px 30px rgba(100, 108, 255, 0.3), 0 0 20px rgba(189, 52, 254, 0.15) !important;
 }
 
-div.VPDocNav .label {
+/* Texto dentro do botão */
+div[class*="VPDocNav"] a span {
+  display: block !important;
+}
+
+div[class*="VPDocNav"] a span:first-child {
   color: #9ca3af !important;
-  font-size: 0.8rem !important;
+  font-size: 0.85rem !important;
   text-transform: uppercase !important;
+  letter-spacing: 2px !important;
+  margin-bottom: 0.4rem !important;
 }
 
-div.VPDocNav .title {
-  color: #646cff !important;
-  font-weight: 600 !important;
-  font-size: 1rem !important;
+div[class*="VPDocNav"] a span:last-child {
+  color: #a5b4fc !important;
+  font-size: 1.15rem !important;
+  font-weight: 700 !important;
+}
+
+/* Container do botão */
+div[class*="VPDocNav"] {
+  margin-top: 4rem !important;
+  padding-top: 2rem !important;
+  border-top: 1px solid rgba(100, 108, 255, 0.3) !important;
 }

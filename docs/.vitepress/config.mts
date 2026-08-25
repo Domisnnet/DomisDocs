@@ -4,12 +4,11 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "DomisDocs",
   description: "Plataforma de Documentação Técnica — DomisDev | Guia: Angular 20 + Firebase Hosting",
-  head: [
-    ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }]
-  ],
+  head: [ ['link', { rel: 'icon', href: '/favicon.svg', type: 'image/svg+xml' }] ],
   lang: 'pt-BR',
   base: '/',
   themeConfig: {
+    outline: { level: [2, 3], label: 'Nesta página' },
     logo: '/images/DomisDev.png',
     nav: [
       { text: 'Início', link: '/' },
@@ -62,18 +61,13 @@ export default defineConfig({
         }
       ]
     },
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs' }
-    ],
+    socialLinks: [ { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs' } ],
     footer: {
       message: 'DomisDocs — Plataforma de Documentação Técnica por DomisDev',
       copyright: '© 2026 DomisDocs | Projeto de referência: Shadow-Flip-Angular'
     },
-    search: {
-      provider: 'local',
-      options: {
-        locales: {}
-      }
-    }
+    search: { provider: 'local' },
+    lastUpdated: { text: 'Atualizado em' },
+    docFooter: { prev: 'Página anterior', next: 'Próxima página' }
   }
 })
