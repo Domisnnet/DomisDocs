@@ -178,7 +178,7 @@ Confirme: rodou o build ANTES do deploy? Atualize com Ctrl+F5? Teste em janela a
 
 <h2 id="codigo-fonte">9. 💻 Código Fonte</h2>
 
-Explore a documentação completa no repositório oficial:
+Explore a documentação completa no Repositório Oficial:
 
 ![VitePress](https://img.shields.io/badge/VitePress-Vue_3-4FC08D?style=for-the-badge&logo=vue.js&logoColor=fff)
 [![Repositório](https://img.shields.io/badge/Repositório-Domisnnet%2FDomisDocs-4FC08D?style=for-the-badge&logo=github&labelColor=0d1117)](https://github.com/Domisnnet/DomisDocs)
