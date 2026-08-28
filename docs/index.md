@@ -1,5 +1,4 @@
 ---
-# https://vitepress.dev/reference/default-theme-home-page
 layout: home
 hero:
   name: DomisDocs
@@ -7,10 +6,10 @@ hero:
   tagline: Guia completo de Deploy — Angular 20 + Firebase Hosting
   actions:
         - theme: brand
-      text: 📖 Começar a Ler
+      text: "📖 Começar a Ler"
       link: /guia/
         - theme: alt
-      text: 🛒 Ver Packs Premium
+      text: "🛒 Ver Packs Premium"
       link: /packs/
 
 features:
