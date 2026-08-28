@@ -6,21 +6,21 @@ hero:
   text: Plataforma de Documentação Técnica
   tagline: Guia completo de Deploy — Angular 20 + Firebase Hosting
   actions:
-    - theme: brand
+        - theme: brand
       text: 📖 Começar a Ler
       link: /guia/
-    - theme: alt
-      text: 🔗 Repositório
-      link: https://github.com/Domisnnet/DomisDocs
+        - theme: alt
+      text: 🛒 Ver Packs Premium
+      link: /packs/
 
 features:
-  - icon: 🚀
+    - icon: 🚀
     title: Deploy Passo a Passo
     details: Do zero ao publicado — completo e testado
-  - icon: ⚙️
+    - icon: ⚙
     title: Angular 20 + Firebase
     details: Configuração, build, rotas e regras de SPA
-  - icon: 🧠
+    - icon: 🧠
     title: Troubleshooting e Boas Práticas
     details: Resolução de problemas, checklist e referências
 ---

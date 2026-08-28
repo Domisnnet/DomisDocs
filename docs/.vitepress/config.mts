@@ -13,10 +13,10 @@ export default defineConfig({
     nav: [
       { text: 'Início', link: '/' },
       { text: '📖 Guia Completo', link: '/guia/' },
-        {
-        text: '🔗 DomisDocs',
+      { text: '🛒 Packs Premium', link: '/packs/' },
+      {
+        text: '🔗 Links',
         items: [
-          { text: 'Repositório', link: 'https://github.com/Domisnnet/DomisDocs' },
           { text: 'Projeto Exemplo', link: 'https://github.com/Domisnnet/Shadow-Flip-Angular' }
         ]
       }
@@ -34,7 +34,7 @@ export default defineConfig({
           ]
         },
         {
-          text: '🛠️ Passo a Passo',
+          text: '🛠 Passo a Passo',
           items: [
             { text: '6. Instalar Firebase CLI', link: '/guia/06-instalar-firebase-cli' },
             { text: '7. Login e Projeto', link: '/guia/07-login-e-associacao' },
@@ -59,12 +59,21 @@ export default defineConfig({
             { text: '21. Créditos e Perfil', link: '/guia/21-creditos-licenca-perfil' }
           ]
         }
+      ],
+      '/packs/': [
+        {
+          text: '🛒 Packs Premium',
+          items: [
+            { text: 'Vitrine - Todos os Packs', link: '/packs/' },
+            { text: 'Domflix Firebase Lite', link: '/packs/domflix-firebase-lite' }
+          ]
+        }
       ]
     },
-    socialLinks: [ { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs' } ],
+    socialLinks: [ { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs-Technical' } ],
     footer: {
-      message: 'DomisDocs — Plataforma de Documentação Técnica por DomisDev',
-      copyright: '© 2026 DomisDocs | Projeto de referência: Shadow-Flip-Angular'
+      message: 'DomisDocs — Plataforma de Documentação Técnica por DomisDev | Licença Private Commercial',
+      copyright: '© 2026 DomisDocs | Feito com 💚 para devs Angular'
     },
     search: { provider: 'local' },
     lastUpdated: { text: 'Atualizado em' },
