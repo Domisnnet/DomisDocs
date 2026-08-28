@@ -11,5 +11,4 @@ Adicione este projeto ao seu "deck" de desenvolvedor!
 ### 🐛 Encontrou um problema?
 
 [![Issues Abertas](https://img.shields.io/github/issues/Domisnnet/DomisDocs?style=flat-square&color=red&logo=github)](https://github.com/Domisnnet/Document-Firebase-Hosting/issues)
-
 [![Report Bug](https://img.shields.io/badge/Reportar-Erro-critical?style=flat-square&logo=github)](https://github.com/Domisnnet/DomisDocs/issues/new) 

@@ -10,7 +10,6 @@ title: Guia — Deploy Angular 20 no Firebase Hosting
 >
 > **Última atualização:** agosto de 2026
 
----
 
 ## 📋 Sumário — 21 Seções
 

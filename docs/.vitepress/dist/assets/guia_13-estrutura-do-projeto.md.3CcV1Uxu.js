@@ -1,7 +1,0 @@
-import{_ as s,o as e,c as t,a3 as o}from"./chunks/framework.B5WAEDB7.js";const _=JSON.parse('{"title":"Estrutura do Projeto","description":"","frontmatter":{"title":"Estrutura do Projeto"},"headers":[],"relativePath":"guia/13-estrutura-do-projeto.md","filePath":"guia/13-estrutura-do-projeto.md","lastUpdated":1787590468000}'),n={name:"guia/13-estrutura-do-projeto.md"};function r(p,a,d,i,l,u){return e(),t("div",null,[...a[0]||(a[0]=[o(`<h1 id="📁-13-estrutura-do-projeto" tabindex="-1">📁 13. Estrutura do Projeto <a class="header-anchor" href="#📁-13-estrutura-do-projeto" aria-label="Permalink to &quot;📁 13. Estrutura do Projeto&quot;">​</a></h1><div class="language-text vp-adaptive-theme"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>Shadow-Flip-Angular/</span></span>
-<span class="line"><span>├── dist/ ← gerado pelo build</span></span>
-<span class="line"><span>├── src/</span></span>
-<span class="line"><span>├── .firebaserc</span></span>
-<span class="line"><span>├── firebase.json</span></span>
-<span class="line"><span>├── angular.json</span></span>
-<span class="line"><span>└── package.json</span></span></code></pre></div><p>A pasta <code>dist/</code> é gerada automaticamente pelo processo de build.</p><blockquote><p>⚠️ <strong>Nunca edite manualmente os arquivos dentro de <code>dist/</code>.</strong></p></blockquote>`,4)])])}const g=s(n,[["render",r]]);export{_ as __pageData,g as default};

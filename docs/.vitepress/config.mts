@@ -65,7 +65,8 @@ export default defineConfig({
           text: '🛒 Packs Premium',
           items: [
             { text: 'Vitrine - Todos os Packs', link: '/packs/' },
-            { text: 'Domflix Firebase Lite', link: '/packs/domflix-firebase-lite' }
+            { text: 'DomisDocs Firebase Lite', link: '/packs/domisdocs-firebase-lite' },
+            { text: 'DomisDocs Firebase Pro', link: '/packs/domisdocs-firebase-pro' }
           ]
         }
       ]
@@ -73,10 +74,9 @@ export default defineConfig({
     socialLinks: [ { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs-Technical' } ],
     footer: {
       message: 'DomisDocs — Plataforma de Documentação Técnica por DomisDev | Licença Private Commercial',
-      copyright: '© 2026 DomisDocs | Feito com 💚 para devs Angular'
+      copyright: '© 2026 DomisDocs | Feito com 💚 para Devs'
     },
     search: { provider: 'local' },
-    lastUpdated: { text: 'Atualizado em' },
     docFooter: { prev: 'Página anterior', next: 'Próxima página' }
   }
 })
