@@ -191,7 +191,7 @@ Repositório privado + PRO_KEY + Fix definitivo em 5 minutos</p>
 - ⚙️ GitHub Actions auto deploy
 - ☁️ SSR Cloud Functions
 
-**[💎 UPGRADE PARA PRO R$199 →](/packs/domflix-firebase-pro)**
+**[💎 UPGRADE PARA PRO R$199 →](/packs/domisdocs-firebase-pro)**
 </div>
 
 ## 🛡️ Garantia
