@@ -1,0 +1,116 @@
+[debug] [2026-08-28T19:37:47.981Z] ----------------------------------------------------------------------
+[debug] [2026-08-28T19:37:47.987Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2026-08-28T19:37:47.987Z] CLI Version:   15.28.1
+[debug] [2026-08-28T19:37:47.987Z] Platform:      win32
+[debug] [2026-08-28T19:37:47.988Z] Node Version:  v24.12.0
+[debug] [2026-08-28T19:37:47.988Z] Detected Agent: unknown
+[debug] [2026-08-28T19:37:47.989Z] Time:          Fri Aug 28 2026 16:37:47 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2026-08-28T19:37:47.989Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-28T19:37:48.015Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2026-08-28T19:38:19.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-28T19:38:19.867Z] > authorizing via signed-in user (dominique.goncalves61@gmail.com)
+[debug] [2026-08-28T19:38:19.867Z] [iam] checking project domisdocs for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-08-28T19:38:19.869Z] Checked if tokens are valid: false, expires at: 1787688013578
+[debug] [2026-08-28T19:38:19.869Z] Checked if tokens are valid: false, expires at: 1787688013578
+[debug] [2026-08-28T19:38:19.870Z] > refreshing access token with scopes: []
+[debug] [2026-08-28T19:38:19.884Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-28T19:38:19.884Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-28T19:38:20.528Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-28T19:38:20.528Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-28T19:38:20.632Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions [none]
+[debug] [2026-08-28T19:38:20.633Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions  x-goog-user-project=domisdocs
+[debug] [2026-08-28T19:38:20.633Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-08-28T19:38:20.642Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2026-08-28T19:38:20.643Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[debug] [2026-08-28T19:38:21.587Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions 400
+[debug] [2026-08-28T19:38:21.587Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions {"error":{"code":400,"message":"Project 'projects/domisdocs' not found or deleted.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"USER_PROJECT_DENIED","domain":"googleapis.com","metadata":{"containerInfo":"projects/domisdocs","service":"cloudresourcemanager.googleapis.com","consumer":"projects/domisdocs"}}]}}
+[debug] [2026-08-28T19:38:21.589Z] [iam] error while checking permissions, command may fail: Request to https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions had HTTP Error: 400, Project 'projects/domisdocs' not found or deleted.
+[debug] [2026-08-28T19:38:21.590Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:38:21.590Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:38:21.591Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs [none]
+[debug] [2026-08-28T19:38:22.196Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs 403
+[debug] [2026-08-28T19:38:22.197Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-08-28T19:38:22.197Z] Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+[debug] [2026-08-28T19:38:22.406Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to get Firebase project domisdocs. Please make sure the project exists and your account has permission to access it.
+[debug] [2026-08-28T19:46:13.570Z] ----------------------------------------------------------------------
+[debug] [2026-08-28T19:46:13.577Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2026-08-28T19:46:13.578Z] CLI Version:   15.28.2
+[debug] [2026-08-28T19:46:13.578Z] Platform:      win32
+[debug] [2026-08-28T19:46:13.578Z] Node Version:  v24.12.0
+[debug] [2026-08-28T19:46:13.579Z] Detected Agent: unknown
+[debug] [2026-08-28T19:46:13.579Z] Time:          Fri Aug 28 2026 16:46:13 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2026-08-28T19:46:13.579Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2026-08-28T19:46:17.340Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-28T19:46:17.341Z] > authorizing via signed-in user (dominique.goncalves61@gmail.com)
+[debug] [2026-08-28T19:46:17.341Z] [iam] checking project domisdocs for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2026-08-28T19:46:17.365Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:17.366Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:17.368Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions [none]
+[debug] [2026-08-28T19:46:17.368Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions  x-goog-user-project=domisdocs
+[debug] [2026-08-28T19:46:17.368Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2026-08-28T19:46:17.902Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions 400
+[debug] [2026-08-28T19:46:17.902Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions {"error":{"code":400,"message":"Project 'projects/domisdocs' not found or deleted.","status":"INVALID_ARGUMENT","details":[{"@type":"type.googleapis.com/google.rpc.ErrorInfo","reason":"USER_PROJECT_DENIED","domain":"googleapis.com","metadata":{"containerInfo":"projects/domisdocs","service":"cloudresourcemanager.googleapis.com","consumer":"projects/domisdocs"}}]}}
+[debug] [2026-08-28T19:46:17.905Z] [iam] error while checking permissions, command may fail: Request to https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs:testIamPermissions had HTTP Error: 400, Project 'projects/domisdocs' not found or deleted.
+[debug] [2026-08-28T19:46:17.907Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:17.907Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:17.908Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs [none]
+[debug] [2026-08-28T19:46:18.475Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs 403
+[debug] [2026-08-28T19:46:18.476Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-08-28T19:46:18.476Z] Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+[debug] [2026-08-28T19:46:18.621Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to get Firebase project domisdocs. Please make sure the project exists and your account has permission to access it.
+[debug] [2026-08-28T19:46:29.412Z] ----------------------------------------------------------------------
+[debug] [2026-08-28T19:46:29.417Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2026-08-28T19:46:29.418Z] CLI Version:   15.28.2
+[debug] [2026-08-28T19:46:29.418Z] Platform:      win32
+[debug] [2026-08-28T19:46:29.418Z] Node Version:  v24.12.0
+[debug] [2026-08-28T19:46:29.419Z] Detected Agent: unknown
+[debug] [2026-08-28T19:46:29.419Z] Time:          Fri Aug 28 2026 16:46:29 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2026-08-28T19:46:29.419Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\Documents\GitHub\DomisDocs-Technical
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-08-28T19:46:53.580Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-28T19:46:53.581Z] > authorizing via signed-in user (dominique.goncalves61@gmail.com)
+[debug] [2026-08-28T19:46:53.636Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:53.637Z] Checked if tokens are valid: true, expires at: 1787949499529
+[debug] [2026-08-28T19:46:53.641Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs [none]
+[debug] [2026-08-28T19:46:54.525Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs 403
+[debug] [2026-08-28T19:46:54.525Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2026-08-28T19:46:54.527Z] Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+[debug] [2026-08-28T19:46:54.673Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/domisdocs had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:53:12)
+    at RetryOperation._fn (C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:415:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[error] 
+[error] Error: Failed to get Firebase project domisdocs. Please make sure the project exists and your account has permission to access it.
