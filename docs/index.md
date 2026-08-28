@@ -2,26 +2,25 @@
 layout: home
 hero:
   name: DomisDocs
-  text: Plataforma de Documentação Técnica
-  tagline: Guia completo de Deploy — Angular 20 + Firebase Hosting
+  text: Plataforma de Documentacao Tecnica
+  tagline: Guia completo de Deploy - Angular 20 + Firebase Hosting
   actions:
-        - theme: brand
+    - theme: brand
       text: "📖 Começar a Ler"
       link: /guia/
-        - theme: alt
+    - theme: alt
       text: "🛒 Ver Packs Premium"
       link: /packs/
-
 features:
-    - icon: 🚀
+  - icon: 🚀
     title: Deploy Passo a Passo
-    details: Do zero ao publicado — completo e testado
-    - icon: ⚙
+    details: Do zero ao publicado - completo e testado
+  - icon: ⚙
     title: Angular 20 + Firebase
-    details: Configuração, build, rotas e regras de SPA
-    - icon: 🧠
-    title: Troubleshooting e Boas Práticas
-    details: Resolução de problemas, checklist e referências
+    details: Configuracao, build, rotas e regras de SPA
+  - icon: 🧠
+    title: Troubleshooting e Boas Praticas
+    details: Resolucao de problemas, checklist e referencias
 ---
 
 <style>
