@@ -73,8 +73,8 @@ export default defineConfig({
     },
     socialLinks: [ { icon: 'github', link: 'https://github.com/Domisnnet/DomisDocs-Technical' } ],
     footer: {
-      message: 'DomisDocs — Plataforma de Documentação Técnica por DomisDev | Licença Private Commercial',
-      copyright: '© 2026 DomisDocs | Feito com 💚 para Devs'
+      message: 'Plataforma de Documentação Técnica | Licença Private Commercial',
+      copyright: '© 2026 DomisDocs | Todos os Direitos Reservados.'
     },
     search: { provider: 'local' },
     docFooter: { prev: 'Página anterior', next: 'Próxima página' }

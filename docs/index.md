@@ -1,9 +1,9 @@
 ---
 layout: home
 hero:
-  name: DomisDocs
-  text: Plataforma de Documentacao Tecnica
-  tagline: Guia completo de Deploy - Angular 20 + Firebase Hosting
+  name: "DomisDocs :"
+  text: Plataforma de Documentacão Técnica.
+  tagline: Guia completo de Deploy - Angular 20 + Firebase Hosting.
   actions:
     - theme: brand
       text: "🚀 Começar a Ler"
