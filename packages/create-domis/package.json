@@ -1,0 +1,16 @@
+﻿{
+  "name": "create-domis",
+  "version": "1.0.0",
+  "description": "CLI para puxar packs privados DomisPacks-Technical via PRO_KEY",
+  "type": "module",
+  "bin": {
+    "create-domis": "./bin.js"
+  },
+  "author": "Domisnnet",
+  "license": "MIT",
+  "dependencies": {
+    "degit": "^3.0.4",
+    "picocolors": "^1.0.1",
+    "prompts": "^2.4.2"
+  }
+}
