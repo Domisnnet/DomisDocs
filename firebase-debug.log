@@ -1,0 +1,85 @@
+[debug] [2026-08-31T13:47:15.328Z] ----------------------------------------------------------------------
+[debug] [2026-08-31T13:47:15.335Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\dell\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init functions
+[debug] [2026-08-31T13:47:15.336Z] CLI Version:   15.28.2
+[debug] [2026-08-31T13:47:15.336Z] Platform:      win32
+[debug] [2026-08-31T13:47:15.336Z] Node Version:  v24.12.0
+[debug] [2026-08-31T13:47:15.337Z] Detected Agent: unknown
+[debug] [2026-08-31T13:47:15.337Z] Time:          Mon Aug 31 2026 10:47:15 GMT-0300 (Horário Padrão de Brasília)
+[debug] [2026-08-31T13:47:15.337Z] ----------------------------------------------------------------------
+[debug] 
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\dell\Documents\GitHub\DomisDocs-Technical
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] 
+[debug] [2026-08-31T13:48:29.034Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-31T13:48:29.035Z] > authorizing via signed-in user (dominique.goncalves61@gmail.com)
+[debug] [2026-08-31T13:48:29.074Z] Checked if tokens are valid: false, expires at: 1788184941552
+[debug] [2026-08-31T13:48:29.075Z] Checked if tokens are valid: false, expires at: 1788184941552
+[debug] [2026-08-31T13:48:29.076Z] > refreshing access token with scopes: []
+[debug] [2026-08-31T13:48:29.083Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2026-08-31T13:48:29.083Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-31T13:48:29.415Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2026-08-31T13:48:29.416Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2026-08-31T13:48:29.522Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs-602fc [none]
+[debug] [2026-08-31T13:48:30.046Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs-602fc 200
+[debug] [2026-08-31T13:48:30.047Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/domisdocs-602fc {"projectId":"domisdocs-602fc","projectNumber":"229610662379","displayName":"domisdocs","name":"projects/domisdocs-602fc","resources":{"hostingSite":"domisdocs-602fc"},"state":"ACTIVE","labels":{"firebase":"enabled"},"etag":"1_1f1bc1d1-7efa-47b7-9ed4-0cdc5e80b6ad"}
+[info] i  Using project domisdocs-602fc (domisdocs) . 
+[info] 
+=== Functions Setup
+[debug] [2026-08-31T13:48:30.181Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2026-08-31T13:48:30.182Z] > authorizing via signed-in user (dominique.goncalves61@gmail.com)
+[debug] [2026-08-31T13:48:30.184Z] [iam] checking project domisdocs-602fc for permissions ["firebase.projects.get"]
+[debug] [2026-08-31T13:48:30.186Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.186Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.187Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs-602fc:testIamPermissions [none]
+[debug] [2026-08-31T13:48:30.187Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs-602fc:testIamPermissions  x-goog-user-project=domisdocs-602fc
+[debug] [2026-08-31T13:48:30.188Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs-602fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-08-31T13:48:30.653Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs-602fc:testIamPermissions 200
+[debug] [2026-08-31T13:48:30.654Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/domisdocs-602fc:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2026-08-31T13:48:30.655Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.655Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.656Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.656Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:30.656Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com [none]
+[debug] [2026-08-31T13:48:30.656Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com  x-goog-user-project=domisdocs-602fc
+[debug] [2026-08-31T13:48:30.659Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/runtimeconfig.googleapis.com [none]
+[debug] [2026-08-31T13:48:30.659Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/runtimeconfig.googleapis.com  x-goog-user-project=domisdocs-602fc
+[debug] [2026-08-31T13:48:31.697Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/runtimeconfig.googleapis.com 200
+[debug] [2026-08-31T13:48:31.697Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/runtimeconfig.googleapis.com [omitted]
+[debug] [2026-08-31T13:48:31.767Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com 200
+[debug] [2026-08-31T13:48:31.767Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2026-08-31T13:48:31.769Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:31.769Z] Checked if tokens are valid: true, expires at: 1788187708416
+[debug] [2026-08-31T13:48:31.770Z] >>> [apiv2][query] POST https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com:enable [none]
+[debug] [2026-08-31T13:48:31.770Z] >>> [apiv2][(partial)header] POST https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com:enable  x-goog-user-project=domisdocs-602fc
+[debug] [2026-08-31T13:48:33.160Z] <<< [apiv2][status] POST https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com:enable 200
+[debug] [2026-08-31T13:48:33.160Z] <<< [apiv2][body] POST https://serviceusage.googleapis.com/v1/projects/domisdocs-602fc/services/cloudfunctions.googleapis.com:enable [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/package.json 
+[info] +  Wrote functions/index.js 
+[info] +  Wrote functions/.gitignore 
