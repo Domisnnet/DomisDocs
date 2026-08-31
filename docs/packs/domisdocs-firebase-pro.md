@@ -139,36 +139,20 @@ Perfeito. O Pro não cria um projeto novo, ele só injeta os arquivos `.rules` e
 </div>
 
 
-## 🛒 Comprar Pro - Acesso Imediato
+## 💎 Comprar DomisDocs Firebase Pro - R$199
 
-<div style="margin: 24px 0; padding: 32px; background: linear-gradient(135deg, #0a1a0a, #112a12); border-radius: 20px; border: 2px solid #26FF00; text-align: center; box-shadow: 0 8px 32px rgba(38,255,0,0.2);">
-
-<h3 style="color: #ffffff !important; font-size: 20px; font-weight: 800; margin-bottom: 12px;">
-💎 DomisPacks-Technical - Acesso Privado Pro</h3>
-
-<p style="color: #e5e7eb !important; font-size: 16px; margin: 16px 0; font-weight: 500;">
-Repositório privado + PRO_KEY vitalícia + Updates + Suporte Prioritário 12h</p>
-
-<div style="margin: 24px 0;">
-<a href="https://kiwify.com.br/SEU-LINK-PRO-AQUI" target="_blank" style="display: inline-block; padding: 16px 32px; background: #26FF00; color: #000000 !important; font-weight: 900; font-size: 18px; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 16px rgba(38,255,0,0.4);">
-💎 QUERO O PRO POR R$199</a>
-</div>
-<div style="text-align: left; max-width: 520px; margin: 24px auto 0; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 12px;">
-
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0; line-height: 1.5;">
-✅ <span style="color: #ffffff;">Entrega:</span> Convite automático para <code style="color: #26FF00; background: rgba(38,255,0,0.15); padding: 2px 6px; border-radius: 4px;">DomisPacks-Technical</code> + PRO_KEY
+<div style="margin: 24px 0; padding: 28px; background: linear-gradient(135deg, #1a0a1a, #0a1a0a); border-radius: 20px; border: 2px solid #FF00FF; text-align: center; box-shadow: 0 8px 32px rgba(255,0,255,0.3);">
+<h3 style="color: #ffffff !important; font-size: 24px; font-weight: 900; margin-bottom: 8px;">💎 DOMISDOCS FIREBASE PRO - R$199</h3>
+<p style="color: #FF00FF !important; font-size: 16px; font-weight: 700; margin: 8px 0;">Produção Completa - O que empresas cobram R$2k</p>
+<p style="color: #e5e7eb !important; font-size: 14px; margin: 12px 0;">
+✅ Tudo do Lite + Rules + Hosting + CI/CD + SSR<br/>
+✅ Template Enterprise pronto pra cliente<br/>
+✅ 6 meses updates + VITALÍCIO + Suporte VIP
 </p>
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0;">
-✅ 7 dias de garantia incondicional via Kiwify
-</p>
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0;">
-✅ Acesso vitalício + todos os updates futuros
-</p>
-</div>
-
-<p style="color: #9ca3af !important; font-size: 13px; margin-top: 16px;">
-🔒 Pagamento 100% seguro via Kiwify - PIX ou Cartão em até 12x
-</p>
+<a href="https://pay.kiwify.com.br/heAmetM" target="_blank" style="display: inline-block; margin: 16px 0; padding: 16px 32px; background: linear-gradient(90deg, #FF00FF, #8A2BE2); color: #ffffff !important; font-weight: 900; font-size: 18px; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 16px rgba(255,0,255,0.4);">
+💎 QUERO O PRO COMPLETO - R$199
+</a>
+<p style="color: #9ca3af !important; font-size: 12px; margin-top: 12px;">📦 Entrega imediata via Kiwify + Acesso GitHub Privado</p>
 </div>
 &nbsp;
 

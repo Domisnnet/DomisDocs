@@ -149,36 +149,23 @@ Lite = só corrige o deploy (firebase.json + rewrites). Pro = deploy + regras de
 </div>
 </div>
 
-## 🛒 Comprar Lite - Acesso Imediato
+## 🛒 Comprar DomisDocs Firebase Lite - R$49
 
-<div style="margin: 24px 0; padding: 32px; background: linear-gradient(135deg, #0a1a0a, #112a12); border-radius: 20px; border: 2px solid #26FF00; text-align: center; box-shadow: 0 8px 32px rgba(38,255,0,0.2);">
-
-<h3 style="color: #ffffff !important; font-size: 20px; font-weight: 800; margin-bottom: 12px;">
-🚀 DomisPacks-Technical - Acesso Privado Lite</h3>
-
-<p style="color: #e5e7eb !important; font-size: 16px; margin: 16px 0; font-weight: 500;">
-Repositório privado + PRO_KEY + Fix definitivo em 5 minutos</p>
-
-<div style="margin: 24px 0;">
-<a href="https://kiwify.com.br/SEU-LINK-LITE-AQUI" target="_blank" style="display: inline-block; padding: 16px 32px; background: #26FF00; color: #000000 !important; font-weight: 900; font-size: 18px; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 16px rgba(38,255,0,0.4);">
-🚀 QUERO O LITE POR R$49</a>
+<div style="margin: 24px 0; padding: 28px; background: linear-gradient(135deg, #0a0a1a, #1a1a0a); border-radius: 20px; border: 2px solid #FFD700; text-align: center; box-shadow: 0 8px 32px rgba(255,215,0,0.3);">
+<h3 style="color: #ffffff !important; font-size: 24px; font-weight: 900; margin-bottom: 8px;">🔥 DOMISDOCS FIREBASE LITE - R$49</h3>
+<p style="color: #FFD700 !important; font-size: 16px; font-weight: 700; margin: 8px 0;">Fix Angular 17-20 + Firebase em 5 minutos</p>
+<p style="color: #e5e7eb !important; font-size: 14px; margin: 12px 0;">
+✅ CLI <code>npx create-domis</code> + Repo Privado<br/>
+✅ 6 meses de updates + Uso VITALÍCIO<br/>
+✅ Licença Comercial Privada v1.2
+</p>
+<a href="https://pay.kiwify.com.br/heAmetM" target="_blank" style="display: inline-block; margin: 16px 0; padding: 16px 32px; background: linear-gradient(90deg, #FFD700, #FFA500); color: #000000 !important; font-weight: 900; font-size: 18px; border-radius: 12px; text-decoration: none; box-shadow: 0 4px 16px rgba(255,215,0,0.4);">
+🚀 QUERO MEU ACESSO AGORA - R$49
+</a>
+<div style="margin-top: 12px;">
+<a href="https://kiwify.app/L2NNYK8" target="_blank" style="color: #9ca3af !important; font-size: 13px; text-decoration: underline;">Ver página oficial de vendas</a>
 </div>
-<div style="text-align: left; max-width: 500px; margin: 24px auto 0; background: rgba(0,0,0,0.3); padding: 16px; border-radius: 12px;">
-
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0; line-height: 1.5;">
-✅ <span style="color: #ffffff;">Entrega:</span> Convite automático para <code style="color: #26FF00; background: rgba(38,255,0,0.15); padding: 2px 6px; border-radius: 4px;">DomisPacks-Technical</code> + PRO_KEY
-</p>
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0;">
-✅ 7 dias de garantia incondicional via Kiwify
-</p>
-<p style="color: #f3f4f6 !important; font-size: 14px; margin: 8px 0;">
-✅ Fix validado em Angular 17, 18, 19 e 20
-</p>
-</div>
-
-<p style="color: #9ca3af !important; font-size: 13px; margin-top: 16px;">
-🔒 Pagamento 100% seguro via Kiwify - PIX ou Cartão em até 12x
-</p>
+<p style="color: #26FF00 !important; font-size: 12px; margin-top: 16px; font-weight: 700;">⚡ Entrega automática via PRO_KEY por e-mail após pagamento</p>
 </div>
 &nbsp;
 

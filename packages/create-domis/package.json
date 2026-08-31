@@ -1,11 +1,14 @@
 ﻿{
   "name": "create-domis",
-  "version": "1.0.0",
-  "description": "CLI para puxar packs privados DomisPacks-Technical via PRO_KEY",
+  "version": "1.0.4",
+  "description": "CLI DomisPacks Technical - https://pay.kiwify.com.br/heAmetM",
   "type": "module",
   "bin": {
-    "create-domis": "./bin.js"
+    "create-domis": "bin.js"
   },
+  "files": [
+    "bin.js"
+  ],
   "author": "Domisnnet",
   "license": "MIT",
   "dependencies": {
