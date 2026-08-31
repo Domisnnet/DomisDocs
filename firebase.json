@@ -1,13 +1,11 @@
 {
   "hosting": {
-    "public": "docs/.vitepress/dist",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
-    ],
-    "cleanUrls": true,
-    "trailingSlash": false
+    ]
   },
   "functions": [
     {
